@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+}
+.pink{
+    width: 160px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 15px;
+    margin: 250px auto;
+}
+p{
+    padding-top: 13px;
+    text-align: center;
+    font-size: 20px;
+}
+.y{
+    margin-left: 15px;
+}
+.effect{
+    padding-top: 10px;
+    color: red;
+}
+input:checked + label{
+    text-decoration: line-through;
+    color: green;
+}

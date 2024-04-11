@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    display: inline-block;
+    background-color: chocolate;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.Current_Mettings{
+    margin-left: 400px;
+}
+.Upcoming_Mettings{
+    margin-left: 390px;
+}
+.flex_container{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+.grid_container{
+    overflow-y: scroll;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    background-color: lightblue;
+}
+.grid_items{
+    height: 70px;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
+.grid_container2{
+    overflow-y: scroll;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    background-color: lightblue;
+    margin-left: 480px;
+    margin-top: -440px;
+}
+.grid_items1{
+    height: 70px;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
+.grid_container3{
+    overflow-y: scroll;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 980px;
+    margin-top: -440px;
+}
+.grid_items2{
+    height: 70px;
+    border-radius: 10px;
+    background-color: lightcoral;
+}

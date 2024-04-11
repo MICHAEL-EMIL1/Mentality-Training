@@ -1,0 +1,177 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  
+  nav ul {
+    padding-left: 20px;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .one{
+    position: relative;
+  }
+  .one::before{
+    transition: 1s;
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    left: 18px;
+    bottom: -5px;
+  }
+.one:hover::before{
+    width: 30%;
+}
+.two{
+    position: relative;
+}
+.two::before{
+    transition: 1s;
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    left: 20px;
+    bottom: -5px;
+}
+.two:hover::before{
+    width: 30%;
+}
+.three{
+    position: relative;
+}
+.three::before{
+    transition: 1s;
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    left: 20px;
+    bottom: -5px;
+}
+.three:hover::before{
+    width: 40%;
+}
+.four{
+    position: relative;
+}
+.four::before{
+    transition: 1s;
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    left: 20px;
+    bottom: -5px;
+}
+.four:hover::before{
+    width: 32%;
+}
+
+  /* Hero styles */
+  .hero {
+    background-image: url('carrrrrrrrr.jpg');
+    width: 60%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(32, 2, 2);
+    text-align: center;
+    margin: 40px 0px 35px 20%;
+  }
+  
+  .hero h2 {
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 22px;
+  }
+  
+  /* Car Models styles */
+  .car-models {
+    padding: 2% 0;
+  }
+  
+  .car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .car {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .car img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+
+  .social-media a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .social-media img {
+    width: 20px;
+    margin: 0 5px;
+  }
+  

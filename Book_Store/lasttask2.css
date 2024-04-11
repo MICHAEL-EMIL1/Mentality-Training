@@ -1,0 +1,134 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    direction: rtl;
+}
+header{
+    background-color: #ffebcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img{
+        margin-right: 30px;
+        width: 20px;
+        height: 20px;
+    }
+    & span{
+        margin-right: 5px;
+        color: blueviolet;
+        font-size: 25px;
+    }
+    & a{
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    & .firstlink{
+        padding: 3px 8px;
+        border: 1px solid blueviolet;
+        border-radius: 50px;
+        box-shadow: 0px 0px 8px 1px blueviolet;
+        margin-right: 380px;
+    }
+    & .loginlink{
+        border: 1px solid blueviolet;
+        border-radius: 50px;
+        background-color: blueviolet;
+        color: white;
+        padding: 6px;
+        margin: 3px;
+        margin-right: 350px;
+        transition: transform 0.3s ease;
+        display: inline-block;
+    }
+    & .Reglink{
+        border: 1px solid blueviolet;
+        border-radius: 50px;
+        background-color: blueviolet;
+        color: white;
+        padding: 6px;
+        margin: 3px;
+        transition: transform 0.3s ease;
+        display: inline-block;
+    }
+    & .loginlink:hover, .Reglink:hover{
+        color: black;
+        transform: scale(0.95);
+    }
+}
+nav{
+    margin-top: 200px;
+    margin-right: 80px;
+    & .firstletter{
+        font-size: 32px;
+        color: blueviolet;
+    }
+    & .secondletter{
+        font-size: 32px;
+    }
+    & .thirdletter{
+        font-size: 13px;
+        color: grey;
+    }
+    & a{
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+        border: 1px solid blueviolet;
+        border-radius: 50px;
+        background-color: blueviolet;
+        color: white;
+        padding: 6px;
+        margin: 3px;
+        margin-left: -2px;
+        transition: transform 0.3s ease;
+        display: inline-block;
+    }
+    & a:hover{
+        color: black;
+        transform: scale(0.95);
+    }
+    & .firstsign{
+        margin-top: -200px;
+        margin-right: 650px;
+        font-size: 53px;
+        text-shadow: 0px 0px 6px blueviolet;
+    }
+    & .secondsign{
+        margin-top: -115px;
+        margin-right: 900px;
+        font-size: 53px;
+        text-shadow: 0px 0px 6px blueviolet;
+    }
+    & .thirdsign{
+        margin-right: 750px;
+        font-size: 53px;
+        text-shadow: 0px 0px 6px blueviolet;
+    }
+    & .fourthsign{
+        margin-top: -35px;
+        margin-right: 1000px;
+        font-size: 53px;
+        text-shadow: 0px 0px 6px blueviolet;
+    }
+}
+footer{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    & a{
+        border: 1px solid blueviolet;
+        border-radius: 50px;
+        background-color: blueviolet;
+        padding: 5px;
+        margin: 3px;
+    }
+    & a:nth-child(1){
+        margin-top: 70px;
+    }
+    & img{
+        width: 20px;
+        height: 20px;
+    }
+}

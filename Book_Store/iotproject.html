@@ -1,0 +1,41 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>ESP32 Control</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .btn {
+      display: block;
+      width: 80px;
+      height: 40px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>ESP32 Control</h2>
+  <h3>%TEMPERATURE% &deg;C</h3>
+  <form action="/get">
+    Email Address <input type="email" name="email_input" value="%EMAIL_INPUT%" required><br>
+    Enable Email Notification <input type="checkbox" name="enable_email_input" value="true" %ENABLE_EMAIL%><br>
+    Temperature Threshold <input type="number" step="0.1" name="threshold_input" value="%THRESHOLD%" required><br>
+    <button type="button" class="btn" onclick="turnOnLED()">Turn On LED</button>
+    <button type="button" class="btn" onclick="turnOffLED()">Turn Off LED</button>
+    <input type="submit" value="Submit">
+  </form>
+  <script>
+    function turnOnLED() {
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/turnOnLED", true);
+      xhr.send();
+    }
+
+    function turnOffLED() {
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/turnOffLED", true);
+      xhr.send();
+    }
+  </script>
+</body>
+</html>

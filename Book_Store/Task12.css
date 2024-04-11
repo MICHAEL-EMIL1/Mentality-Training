@@ -1,0 +1,182 @@
+.container{
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    "side header header header header"
+    "side header header header header"
+    "side header header header header"
+    "side content content content content"
+    "side content content content content"
+    "side content content content content"
+    "side content content content content"
+    "side content content content content"
+    ;
+}
+.side-nav{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: beige;
+    height: 754px;
+    width: 200px;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    padding-left: 60px;
+}
+.logo-name{
+    display: inline-block;
+    width: 10px;
+    margin-top: -35px;
+    margin-left: 95px;
+}
+.create{
+    border: 2px blue solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 20px;
+    margin-bottom: 13px;
+    text-decoration: none;
+}
+.home{
+    border: 2px blue solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.collection{
+    text-decoration: none;
+    color: gray;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.downloads{
+    text-decoration: none;
+    color: gray;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.chat{
+    text-decoration: none;
+    color: gray;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.history{
+    text-decoration: none;
+    color: gray;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.settings{
+    text-decoration: none;
+    color: gray;
+    padding-left: 40px;
+    padding-top: 275px;
+}
+.Logout{
+    text-decoration: none;
+    color: gray;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.header{
+    color: grey;
+    display: inline-flex;
+    border: 2px grey solid;
+    border-radius: 20px;
+    margin-left: 80px;
+    padding: 15px 25px 0px;
+}
+.search{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.searchh{
+    margin-top: -2px;
+    margin-left: 8px;
+    font-size: 18px;
+}
+.photo{
+    margin-left: 800px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.name{
+    margin-left: 1290px;
+    margin-top: -770px;
+}
+.mail{
+    margin-left: 1290px;
+    margin-top: -15px;
+}
+.line{
+    margin-left: 280px;
+    margin-top: 40px;
+}
+.boxs{
+    display: inline-flex;
+    margin-left: 285px;
+    margin-top: 15px;
+    gap: 10px;
+}
+.All{
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+    border: 2px grey solid;
+    border-radius: 20px;
+}
+.Abstract{
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+    border: 2px grey solid;
+    border-radius: 20px;
+}
+.Nature{
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+    border: 2px grey solid;
+    border-radius: 20px;
+}
+.blus{
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+    border: 2px grey solid;
+    border-radius: 20px;
+}
+.outer{
+    margin-left: 280px;
+    width: 170px;
+    height: 300px;
+    background-color: bisque;
+    border: 2px bisque solid;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.photoo{
+    margin-left: 10px;
+    margin-top: 7px;
+    width: 150px;
+    height: 280px;
+    border-radius: 20px;
+}
